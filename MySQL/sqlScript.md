@@ -160,6 +160,16 @@ ALTER TABLE `emp`
 
 **1.SELECT ==> 테이블 내의 데이터를 조회할 때 사용한다**
 
+```
+    [기본형식]
+    SELECT 컬럼명1, 컬럼명2.....
+    FROM 테이블명
+    WHERE 조건절
+    GROUP BY 칼럼명
+    HAVING 조건절 (GROUP묶은 다음에 조건 줄 때)
+    ORDER BY 칼럼명[ASC|DESC] => 오름차순 혹은 내림차순 
+    인식순서 FROM > WHERE > GROUP BY > HAVING > SELECT > ORDER BY
+```
 **(1) SELECT 사용**
 - emo 테이블에서 사원번호, 사원이름, 직업을 출력하기.
 ```
